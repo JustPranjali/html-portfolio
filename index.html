@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <header> <h4>Registration Form</h4> </header>
+    <marquee> This form is available only till 1st september, no changes can be made in the form once it is submitted</marquee>
+    <article>
+       
+        <form action="/action.php"> 
+            Name:     <input type="text" placeholder=" Name"><br><br>
+            Email:     <input type="text" placeholder="sample@sample.com"><br><br>
+            Phone number:  <input type="text" placeholder="Mobile Number"><br><br>
+            Gender:       <select name="gender" id="gender" placeholder="Gender">
+                          <option value="Male">MALE</option>
+                          <option value="Female">FEMALE</option>
+            </select><br><br>
+            <label for="birthday">Birthday:</label>
+             <input type="date" id="birthday" name="birthday"><br><br>
+             Current Semester:
+            ODD SEM:   <input type="checkbox" value="Even sem" name="Even sem">
+            EVEN SEM: <input type="checkbox" value="Odd sem" name="Odd sem"><br><br> 
+            Department: <select name="department" id="department">
+                      <option value="CS">CS</option>
+                      <option value="IT">IT</option>
+                      <option value="EXTC">EXTC</option>
+                      <option value="Electronics">Electronics</option>
+                      <option value="Electrical">Electrical</option>
+                      <option value="Mechanical">Mechanical</option>
+                      <option value="Civil">Civil</option>
+                      <option value="Production">Production</option>
+                      <option value="Textile">Textile</option>
+            </select><br><br>
+             <input type="radio" name="Year" id="FY" value="FY">
+            <label for="FY">FY</label><br><br></centre>
+            <centre><input type="radio" name="Year" id="SY" value="SY">
+            <label for="SY">SY</label><br><br></centre>
+            <centre><input type="radio" name="Year" id="TY" value="TY">
+            <label for="TY">TY</label><br><br></centre>
+            <centre><input type="radio" name="Year" id="LY" value="LY">
+            <label for="LY">LY</label><br><br></centre>
+            <input type="password" placeholder="Enter password"><br><br></centre>
+             <input type="password" placeholder="Re-enter password"><br><br></centre>
+            <!-- <i class="input-box button"></i> -->
+             <centre><input type="submit" name="Submit"></centre>
+        </form>
+    
+     </article>
+
+    
+</body>
+</html>
